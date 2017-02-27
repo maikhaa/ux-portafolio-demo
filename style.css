@@ -1,0 +1,90 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  padding: 5vh;
+  height: 90vh;
+  background-image: url(img/slider.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-paragraph {
+  font-size: 9vh;
+  font-weight: bolder;
+  line-height: 9vh;
+  text-align: center;
+  color: #000;
+}
+
+nav {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-bar {
+  font-size: 2.5vh;
+  line-height: 2.5vh;
+  font-weight: bold;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 0 10px;
+}
+
+section {
+  padding: 2.5vh;
+}
+
+.options {
+  background-color: #00ccbc;
+  color: white;
+}
+
+.shape {
+  border: 0.5vh solid #fff;
+  background: transparent;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 10vh;
+  display: block;
+  line-height: 10vh;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 5vh;
+}
+
+.option {
+  text-align: center;
+  padding: 2.5vh;
+}
+
+h2 {
+  font-size: 2.5vh;
+}
+
+p {
+  font-size: 2.2vh;
+}
+
+content {
+  background-color: gray;
+}
+
+footer {
+  background-color: black;
+}
