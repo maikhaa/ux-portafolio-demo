@@ -1,6 +1,8 @@
 @media (max-width: 992px) {
     .affix {
         position: relative;
+        padding: 0;
+        margin: 0;
     }
 }
 
@@ -39,10 +41,11 @@ nav {
 }
 
 .affix {
-    top: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
-    z-index: 100;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+  border-bottom: 4px solid #00ccbc;
 }
 
 .menu-bar {
@@ -77,6 +80,7 @@ section {
 .options {
   background-color: #00ccbc;
   color: white;
+  text-align: center;
 }
 
 .shape {
@@ -97,18 +101,70 @@ section {
   padding: 2.5vh;
 }
 
+h1 {
+  font-size: 5vh;
+  font-weight: bold;
+  padding-bottom: 2.5vh;
+}
+
 h2 {
   font-size: 2.5vh;
+  font-weight: bold;
 }
 
 p {
-  font-size: 2.2vh;
+  font-size: 2.3vh;
 }
 
-content {
-  background-color: gray;
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 5vh;
+  background-color: #ecedef;
+}
+
+.about-title {
+  padding-bottom: 10px;
+}
+
+.contact {
+  background-color: #00ccbc;
+  color: white;
+  text-align: center;
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-button {
+  border-radius: 2px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 0;
+  margin: 5px auto;
+  font-size: 2vh;
+  font-weight: bold;
+  letter-spacing: .05em;
+  width: 20vh;
+  display: block;
+}
+
+.contact-button:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #00ccbc;
+  cursor: pointer;
+  cursor: hand;
 }
 
 footer {
-  background-color: black;
+  background-color: #ecedef;
+  text-align: center;
+  padding: 2vh;
 }
