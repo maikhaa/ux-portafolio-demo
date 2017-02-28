@@ -24,20 +24,63 @@ header {
   justify-content: center;
 }
 
-.main-paragraph {
-  font-size: 9vh;
-  font-weight: bolder;
-  line-height: 9vh;
-  text-align: center;
-  color: #000;
-}
-
 nav {
   height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+section {
+  padding: 2.5vh;
+}
+
+footer {
+  background-color: #ecedef;
+  font-size: 1.5vh;
+  text-align: center;
+  padding: 2vh;
+}
+
+li {
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #00ccbc;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 5vh;
+  font-weight: bold;
+  padding-bottom: 2.5vh;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+h2 {
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+p {
+  font-size: 2.3vh;
+}
+
+.main-paragraph {
+  font-size: 9vh;
+  font-weight: bolder;
+  line-height: 9vh;
+  text-align: center;
+  color: #000;
 }
 
 .affix {
@@ -56,25 +99,6 @@ nav {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-li {
-  padding: 0 10px;
-  cursor: pointer;
-  cursor: hand;
-}
-
-a {
-  color: #000;
-}
-
-a:hover {
-  color: #00ccbc;
-  text-decoration: none;
-}
-
-section {
-  padding: 2.5vh;
 }
 
 .options {
@@ -101,27 +125,11 @@ section {
   padding: 2.5vh;
 }
 
-h1 {
-  font-size: 5vh;
-  font-weight: bold;
-  padding-bottom: 2.5vh;
-}
-
-h2 {
-  font-size: 2.5vh;
-  font-weight: bold;
-}
-
-p {
-  font-size: 2.3vh;
-}
-
 .about {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 80vh;
   padding: 5vh;
   background-color: #ecedef;
 }
@@ -161,10 +169,4 @@ p {
   color: #00ccbc;
   cursor: pointer;
   cursor: hand;
-}
-
-footer {
-  background-color: #ecedef;
-  text-align: center;
-  padding: 2vh;
 }
